@@ -48,7 +48,6 @@ target_lang = st.selectbox(
 )
 
 # File upload (supports both .txt and .pdf)
-st.markdown("⚠️ Please upload files smaller than **500KB**.")
 uploaded_file = st.file_uploader("Upload notes", type=["txt", "pdf"])
 
 
