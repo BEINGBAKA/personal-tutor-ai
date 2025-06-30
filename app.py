@@ -1,5 +1,7 @@
 # app.py
 import streamlit as st
+
+st.set_page_config(page_title="Personal Tutor", layout="wide")
 from rag_pipeline import load_and_split_text, embed_chunks, retrieve_similar_chunks
 from agents.quiz_agent import generate_quiz
 from agents.translator import translate
@@ -16,7 +18,6 @@ configure(api_key=gemini_api_key)
 mem = get_memory_usage()
 st.sidebar.markdown(f"💾 RAM usage: **{mem:.2f} MB**")
 
-st.set_page_config(page_title="Personal Tutor", layout="wide")
 # Hide Streamlit's default upload size note
 st.markdown("""
     <style>
