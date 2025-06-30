@@ -52,8 +52,8 @@ st.markdown("⚠️ Please upload files smaller than **500KB**.")
 uploaded_file = st.file_uploader("Upload notes", type=["txt", "pdf"])
 
 
-if uploaded_file and uploaded_file.size > 500000:
-    st.warning("Please upload a smaller file (<500KB).")
+if uploaded_file and uploaded_file.size > 2000000:
+    st.warning("Please upload a smaller file (<2MB).")
     st.stop()
 
 if uploaded_file:
