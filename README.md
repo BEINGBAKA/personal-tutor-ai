@@ -38,7 +38,7 @@ An agentic AI-powered Streamlit application that helps students learn better fro
 
 # Demo
 
-Try it live: [https://your-render-app-url](https://personal-tutor-ai-4nkf3awkbunk7hf3stktfa.streamlit.app/)
+Try it live: [https://your-streamlit-app-url](https://personal-tutor-ai-4nkf3awkbunk7hf3stktfa.streamlit.app/)
 
 ---
 
